@@ -1,0 +1,59 @@
+.login-main-div {
+  width: 100%;
+  height: 100%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-submit-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.birthdate-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.date-month {
+  flex: 1;
+  margin: 2px;
+}
+.year {
+  flex: 3;
+  margin: 2px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.checkbox-createnewacc {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.main-wrapper {
+}
